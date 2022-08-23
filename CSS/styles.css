@@ -27,7 +27,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+
   color: var(--hover-color);
 }
 
@@ -38,7 +38,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+
   color: #000000;
 }
 
@@ -141,7 +141,7 @@ h1 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+
   text-transform: uppercase;
   color: var(--h2-h3-color);
 }
@@ -151,7 +151,7 @@ h1 {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+
   color: var(--text-color);
 }
 /*--benefits-section-end-----------*/
@@ -162,7 +162,7 @@ h2 {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
+
   color: var(--h2-h3-color);
 }
 
@@ -172,7 +172,7 @@ h2 {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
+
   color: var(--h2-h3-color);
 }
 
@@ -182,7 +182,7 @@ h2 {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
+
   color: var(--text-color);
 }
 /*--experience-section-end--*/
@@ -205,7 +205,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.85;
-  letter-spacing: 0.03em;
+
   color: var(--text-color);
 }
 
@@ -217,7 +217,7 @@ header {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
+
   color: var(--h2-h3-color);
 
   background: #f5f4fa;
@@ -255,7 +255,7 @@ footer a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+
   color: #ffffff;
 }
 
@@ -265,7 +265,7 @@ address p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+
   color: #ffffff;
 }
 
@@ -275,7 +275,7 @@ address a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+
   color: rgba(255, 255, 255, 0.6);
 }
 /*--FOOTER-SECTION-END--------------*/
