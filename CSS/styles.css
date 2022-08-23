@@ -6,6 +6,18 @@
 .link {
   text-decoration: none;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+:root {
+  --hover-color: #2196f3;
+  --h2-h3-color: #212121;
+  --text-color: #757575;
+  --bg-color-black: #2f303a;
+}
 /*--null-styles-page-end------------*/
 /*--NAVIGATION-SECTION---------------------*/
 /*--logo-blue-part----------------*/
@@ -16,7 +28,7 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--hover-color);
 }
 
 /*--logo-black-part-------------*/
@@ -31,40 +43,48 @@
 }
 
 .nav-list-item {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--h2-h3-color);
+  text-decoration: none;
+}
+
+.nav-list-item-active {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--hover-color);
   text-decoration: none;
 }
 
 .contact-mail {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-color);
   text-decoration: none;
 }
 
 .contact-number {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-color);
   text-decoration: none;
 }
 
-.hover a:hover {
-  color: #2196f3;
+.hover a:hover,
+.hover a:focus {
+  color: var(--hover-color);
 }
 
 /*--NAVIGATION-SECTION---------------------*/
@@ -72,7 +92,7 @@
 /*--PAGE-PRIMARY-BANER-SECTION--------------*/
 h1 {
   position: relative;
-  font-family: "Roboto", sans-serif;
+
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -91,7 +111,6 @@ h1 {
   background: #2f303a;
 }
 .banner button {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -105,7 +124,7 @@ h1 {
   height: 50px;
   left: 692px;
   top: 430px;
-  background: #2196f3;
+  background: var(--hover-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -118,58 +137,53 @@ h1 {
 }
 
 .benefits-main h3 {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--h2-h3-color);
 }
 
 .benefits-main p {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }
 /*--benefits-section-end-----------*/
 /*--experience-section----------*/
 h2 {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--h2-h3-color);
 }
 
 .our-command-main h3 {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--h2-h3-color);
 }
 
 .our-command-main p {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }
 /*--experience-section-end--*/
 /*--PAGE-PRIMARY-BANER-SECTION-END---*/
@@ -179,48 +193,42 @@ header {
   margin-bottom: 56px;
 }
 .portfolio h3 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--h2-h3-color);
 }
 
 .portfolio p {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.85;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }
 
 /*--filter-section-----*/
 
-.filter button {
-  font-family: "Roboto", sans-serif;
+.portfolio button {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  width: 112px;
-  height: 38px;
-  left: 726px;
-  top: 174px;
+  color: var(--h2-h3-color);
+
   background: #f5f4fa;
   border-radius: 4px;
   border: none;
   cursor: pointer;
 }
 
-.filter button:hover {
-  background: #2196f3;
+.portfolio button:hover,
+.portfolio button:focus {
+  background: var(--hover-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -234,10 +242,7 @@ header {
 /*--FOOTER-SECTION-------*/
 
 footer {
-  width: 1600px;
-  height: 252px;
-  top: 2094px;
-  background: #2f303a;
+  background: var(--bg-color-black);
 }
 
 footer a {
