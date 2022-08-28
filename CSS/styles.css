@@ -10,6 +10,8 @@
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
+  color: var(--text-color);
 }
 
 :root {
@@ -17,6 +19,10 @@ body {
   --h2-h3-color: #212121;
   --text-color: #757575;
   --bg-color-black: #2f303a;
+  --logo-color-black: #000000;
+  --white-color: #ffffff;
+  --background-button-color: #f5f4fa;
+  --adress-a-color: rgba(255, 255, 255, 0.6);
 }
 /*--null-styles-page-end------------*/
 /*--NAVIGATION-SECTION---------------------*/
@@ -27,7 +33,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
   color: var(--hover-color);
 }
 
@@ -38,8 +43,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
-  color: #000000;
+  color: var(--logo-color-black);
 }
 
 .nav-list-item {
@@ -92,7 +96,6 @@ body {
 /*--PAGE-PRIMARY-BANER-SECTION--------------*/
 h1 {
   position: relative;
-
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -100,7 +103,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .banner {
@@ -108,7 +111,7 @@ h1 {
   height: 600px;
   left: 0px;
   top: 80px;
-  background: #2f303a;
+  background: var(--bg-color-black);
 }
 .banner button {
   font-style: normal;
@@ -119,7 +122,7 @@ h1 {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--white-color);
   width: 216px;
   height: 50px;
   left: 692px;
@@ -141,17 +144,15 @@ h1 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-
   text-transform: uppercase;
   color: var(--h2-h3-color);
 }
 
 .benefits-main p {
   font-style: normal;
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 1.71;
-
   color: var(--text-color);
 }
 /*--benefits-section-end-----------*/
@@ -162,7 +163,6 @@ h2 {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-
   color: var(--h2-h3-color);
 }
 
@@ -172,17 +172,15 @@ h2 {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-
   color: var(--h2-h3-color);
 }
 
 .our-command-main p {
   font-style: normal;
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-
   color: var(--text-color);
 }
 /*--experience-section-end--*/
@@ -192,7 +190,7 @@ h2 {
 header {
   margin-bottom: 56px;
 }
-.portfolio h3 {
+.project-name-h-2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -202,10 +200,8 @@ header {
 
 .portfolio p {
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.85;
-
   color: var(--text-color);
 }
 
@@ -217,10 +213,8 @@ header {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-
   color: var(--h2-h3-color);
-
-  background: #f5f4fa;
+  background: var(--background-button-color);
   border-radius: 4px;
   border: none;
   cursor: pointer;
@@ -233,6 +227,7 @@ header {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border: none;
+  color: var(--white-color);
 }
 
 /*--filter-section-end--*/
@@ -255,27 +250,22 @@ footer a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 address p {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 address a {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--adress-a-color);
 }
 /*--FOOTER-SECTION-END--------------*/
